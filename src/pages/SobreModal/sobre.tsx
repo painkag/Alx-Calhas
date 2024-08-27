@@ -2,6 +2,7 @@ import React from "react";
 import { Popover, PopoverTrigger, PopoverContent, Button, PopoverProps } from "@nextui-org/react";
 import style from './sobre.module.css';
 
+// @ts-ignore
 interface PropsText extends PopoverProps {
   textButton: string;
   textH2: string;

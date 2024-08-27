@@ -1,0 +1,48 @@
+.button{
+    background-color: #FF675B;
+    color: var(--white);
+    border: none;
+    width: 80%;
+    height: 20%;
+}
+.button:hover{
+    background-color: #FFA07A;
+    transition: 0.4s;
+}
+.holdAll {
+    padding: 1rem;
+    background-color: rgb(69, 58, 69); /* Cor de fundo suave */
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); /* Sombra sutil */
+    max-width: 600px; /* Largura máxima */
+    margin: auto; /* Centralizar horizontalmente */
+    text-align: center; /* Alinhamento centralizado do texto */
+  }
+
+  .h2 {
+    font-size: 1.5rem; /* Tamanho da fonte para o título */
+    font-weight: bold; /* Negrito para o título */
+    color: var(--darkgrey); /* Cor do texto do título */
+    margin-bottom: 0.5rem; /* Espaçamento abaixo do título */
+  }
+  
+  .p {
+    color: var(--darkgrey);
+    font-size: 0.875rem; /* Tamanho da fonte menor para o parágrafo */
+    line-height: 1.5; /* Altura da linha para melhor leitura */
+  }
+  /* sobre.module.css */
+
+.popoverContent {
+  width: 400px; /* Tamanho padrão */
+  height: auto;
+  padding: 1rem;
+  /* Outros estilos desejados */
+}
+
+@media(max-width: 764px) {
+  .button {
+    width: 70%; /* Tamanho reduzido para telas pequenas */
+    height: 20%;
+  }
+}

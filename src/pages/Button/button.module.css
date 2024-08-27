@@ -1,0 +1,23 @@
+.button {
+    background-color: #007bff; /* Azul bonito */
+    color: #ffffff; /* Cor do texto branco para contraste */
+    border: 1px solid #007bff; /* Borda azul para combinar com o fundo */
+    border-radius: 4px; /* Borda arredondada */
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    font-size: 16px; /* Tamanho da fonte */
+    cursor: pointer; /* Cursor em forma de mão ao passar sobre o botão */
+    text-align: center; /* Alinhamento do texto no centro */
+    text-decoration: none; /* Remove sublinhado do texto */
+    display: inline-block; /* Mantém o botão como um bloco em linha */
+    transition-property: transform, color, background-color, border-color, opacity;
+    transition-timing-function: ease;
+    transition-duration: 0.25s;
+    opacity: 1; /* Opacidade padrão */
+}
+
+.button:hover {
+    background-color: #0056b3; /* Azul mais escuro ao passar o mouse */
+    border-color: #0056b3; /* Borda também escurece */
+    color: #ffffff; /* Cor do texto permanece branca */
+    transform: scale(1.05); /* Aumenta um pouco o tamanho do botão */
+}

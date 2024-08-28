@@ -8,7 +8,7 @@ interface ButtonProps{
 }
 
 export default function Buttonn({onClick}: ButtonProps) {
-    console.log(onClick,'aqui oh')
+    
   return (
     <Button className={style.button} color="primary" onClick={onClick}>
       Orçamento

@@ -1,19 +1,19 @@
-import React from "react";
-import { Popover, PopoverTrigger, PopoverContent, Button, PopoverProps } from "@nextui-org/react";
 import style from './sobre.module.css';
 
-// @ts-ignore
-interface PropsText extends PopoverProps {
+interface SobreModalProps {
   textButton: string;
   textH2: string;
   textP: string;
 }
 
-export default function SobreModal({ textButton, textH2, textP }: PropsText) {
+import React from "react";
+import {Popover, PopoverTrigger, PopoverContent, Button} from "@nextui-org/react";
+
+export default function App({textButton,textH2,textP}:SobreModalProps) {
   return (
-    <Popover>
+    <Popover placement="right">
       <PopoverTrigger>
-        <Button>{textButton}</Button>
+        <Button className={style.button}>{textButton}</Button>
       </PopoverTrigger>
       <PopoverContent className={style.popoverContent}>
         <div className={style.holdAll}>

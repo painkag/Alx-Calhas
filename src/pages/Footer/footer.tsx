@@ -5,7 +5,7 @@ import Img from '../../../public/Logo/Logo.png'
 import { FaPhoneVolume } from "react-icons/fa6";
 import { MdOutlineEmail } from "react-icons/md";
 import style from './footer.module.css';
-import { handleWhatsClick } from '../utils/whatszapUtils';
+import { handleWhatsClick } from '../../utils/whatszapUtils';
 
 export default function Footer() {
   return (

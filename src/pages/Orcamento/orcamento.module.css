@@ -86,11 +86,13 @@
   }
   @media(max-width:765px){
     .section{
+      margin-left: 4%;
+      width: 90%;
       height: 40vh;
     }
     .pulser{
-      width: 30%;
-      height: 30%;
+      width: 20%;
+      height: 20%;
       margin-top: 10%;
     }
   }

@@ -46,3 +46,9 @@
 .holdAll:hover .img {
     transform: scale(1.1);
 }
+@media(max-width:765px){
+    .container{
+        width: 93%;
+        margin-left: 4%;
+    }
+}

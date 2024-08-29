@@ -9,8 +9,8 @@ export default function QuemSomos() {
     <div className={style.holdAll} id="sobre">
       <div className={style.teste}>
         <div className={style.holdText}>
-          <h1>Somos a A.L.X CALHAS</h1>
-          <h3>PIONEIRISMO A ORIGEM DE UMA MARCA FORTE.</h3>
+          <h1 className={style.h11}>Somos a A.L.X CALHAS</h1>
+          <h3 className={style.h33}>PIONEIRISMO A ORIGEM DE UMA MARCA FORTE.</h3>
           <p>
             Com mais de 100 anos de história, a calha forte produz centenas de
             toneladas de calhas, rufos, telhas e outros produtos por mês.

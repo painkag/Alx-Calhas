@@ -12,7 +12,7 @@ import {Popover, PopoverTrigger, PopoverContent, Button} from "@nextui-org/react
 export default function App({textButton,textH2,textP}:SobreModalProps) {
   return (
     <Popover placement="right">
-      <PopoverTrigger>
+      <PopoverTrigger className={style.holdButton}>
         <Button className={style.button}>{textButton}</Button>
       </PopoverTrigger>
       <PopoverContent className={style.popoverContent}>

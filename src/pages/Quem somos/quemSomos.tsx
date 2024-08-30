@@ -12,8 +12,7 @@ export default function QuemSomos() {
           <h1 className={style.h11}>Somos a A.L.X CALHAS</h1>
           <h3 className={style.h33}>PIONEIRISMO A ORIGEM DE UMA MARCA FORTE.</h3>
           <p>
-            Com mais de 100 anos de história, a calha forte produz centenas de
-            toneladas de calhas, rufos, telhas e outros produtos por mês.
+          A ALX Calhas tem anos de experiência na produção de calhas, rufos, telhas e outros produtos, sempre focando na qualidade e na satisfação dos nossos clientes.
           </p>
           <SobreModal
             textButton="Saiba mais"

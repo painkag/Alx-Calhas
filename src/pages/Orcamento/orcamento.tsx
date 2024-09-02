@@ -2,11 +2,9 @@ import React from 'react';
 import Buttonn from '../Button/button';
 import { handleWhatsClick } from '../../utils/whatszapUtils';
 import style from './orcamento.module.css';
-import img from '../../../public/jeep.png';
-import Image from 'next/image';
 
 export default function Orcamento() {
-  const phoneNumber = '+5511982713498';
+  const phoneNumber = '+5511987782295';
   const message = 'Olá, gostaria de mais informações.';
 
   const handleClick = () => {

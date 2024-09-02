@@ -4,7 +4,7 @@
 
 .carousel-container {
   width: 96%;
-  height: 220vh; /* Ajuste a altura conforme necessário */
+  height: 190vh; /* Ajuste a altura conforme necessário */
   position: relative;
   display: block;
   overflow: hidden;
@@ -91,7 +91,7 @@
 /* Estilos responsivos para telas menores que 768px */
 @media (max-width: 768px) {
   .carousel-container {
-    height: 50vh;
+    height: 60vh;
     text-align: center;
     align-items: center;
     width:100%;

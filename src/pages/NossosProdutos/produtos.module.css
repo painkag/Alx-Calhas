@@ -30,11 +30,11 @@
     justify-content: center;
     align-items: center;
     gap: 2%;
-    background-color: #263238; /* Cor de fundo neutra */
     padding: 2rem;
     min-width: 320px; /* Diminuir a largura mínima */
     min-height: 551px;
     flex-direction: column;
+    color: black;
 }
 
 .holdAll h2 {

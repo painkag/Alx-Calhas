@@ -9,6 +9,7 @@ import Image from "next/image";
 import Img from '../../../public/ImagensSection/calhas1.jpg';
 import Img2 from '../../../public/ImagensSection/calhas2.jpg';
 import Img3 from '../../../public/ImagensSection/calhas3.jpg';
+import Img4 from '../../../public/Produtos/calha5.jpg';
 
 const ImagensSection = () => {
   // Configurações do carrossel

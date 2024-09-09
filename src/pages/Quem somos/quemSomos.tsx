@@ -10,7 +10,7 @@ export default function QuemSomos() {
       <div className={style.teste}>
         <div className={style.holdText}>
           <h1 className={style.h11}>Somos a A.L.X CALHAS</h1>
-          <h3 className={style.h33}>PIONEIRISMO A ORIGEM DE UMA MARCA FORTE.</h3>
+          <h3 className={style.h33}>A ORIGEM QUE MOLDOU NOSSA MARCA.</h3>
           <p>
           A ALX Calhas tem anos de experiência na produção de calhas, rufos, telhas e outros produtos, sempre focando na qualidade e na satisfação dos nossos clientes.
           </p>

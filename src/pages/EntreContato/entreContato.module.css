@@ -1,0 +1,58 @@
+.containerOrigin{
+    width: 100%;
+}
+.containerAll{
+    display: flex;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombra leve para efeito de card */
+    padding: 2rem;
+    background-color: #ffffff; /* Branco para os cards */
+    border: 1px solid #4f5b62;
+    width: 97%;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    gap: 20%;
+}
+.containerGroup{
+    color: var(--black);
+}
+.containerGroup P {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.containerImage{
+}
+.img{
+    width: 100%;
+    height: auto;
+}
+@media (max-width:765px){
+    .containerOrigin{
+        width: 100%;
+        height: 100vh;
+    }
+    .containerAll{
+        width: 96%;
+        margin-left: 4%;
+        display: flex;
+        gap: 10%;
+    }
+    .containerGroup{
+        color: var(--black);
+    }
+    .containerGroup h1{
+        color: blue;
+        margin-bottom: 10%;
+    }
+    .containerGroup p{
+        margin-bottom: 10%;
+    }
+    .img{
+        width: 100%;
+        height: 100%;
+        border-radius: 10%;
+    }
+}

@@ -88,8 +88,8 @@
 
 @media(max-width: 765px) {
   .section {
-    width: 98%; /* Ajuste para 90% para melhorar a responsividade */
-    margin-left: auto; /* Centraliza horizontalmente */
+    width: 94%; /* Ajuste para 90% para melhorar a responsividade */
+    margin-left: 5%; /* Centraliza horizontalmente */
     margin-right: auto; /* Centraliza horizontalmente */
     height: auto; /* Ajusta a altura automaticamente */
     min-width: auto; /* Remove a largura mínima para mobile */

@@ -7,6 +7,7 @@ import QuemSomos from "./Quem somos/quemSomos";
 import Orcamento from "./Orcamento/orcamento";
 import Produtos from "./NossosProdutos/produtos";
 import Footer from "./Footer/footer";
+import EntreContato from "./EntreContato/entreContato";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -27,10 +28,11 @@ export default function Home() {
       </Head>
       <div className={styles.all}>
         <Headerr />
-        <ImagensSection />
         <QuemSomos />
+        <EntreContato/>
         <Produtos />
         <Orcamento />
+        <ImagensSection />
         <Footer />
       </div>
     </>

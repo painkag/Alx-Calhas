@@ -1,22 +1,22 @@
 /* ImagensSection.module.css */
 
 /* Container do carrossel */
-
 .carousel-container {
   width: 96%;
-  height: 190vh; /* Ajuste a altura conforme necessário */
+  height: 120vh; /* Reduzi a altura do carrossel */
   position: relative;
   display: block;
   overflow: hidden;
   margin: 1% 0;
   min-width: 386px;
-   /* Bordas arredondadas */
   border-radius: 20px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombra leve para efeito de card */
-  background-color: #ffffff; /* Branco para os cards */
-  border: 1px solid #4f5b62;; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  background-color: #ffffff;
+  border: 1px solid #4f5b62; 
   margin-left: 2%;
 }
+
+/* Container para todas as imagens e vídeos */
 .holdAll {
   width: 100%;
   display: flex;
@@ -33,107 +33,120 @@
   align-items: center;
   height: 100%;
   text-align: center;
-  
 }
+
 /* Estilo das imagens no carrossel */
-.img1, .img2, .img3 {
-  margin-left: 25%;
-  margin-top: 10%;
+.img1{
+  margin-top: 5%;
+  margin-left: 35%;
+  width: 30%;
+  height: 50%; /* Reduzi a altura das imagens para ocupar menos espaço */
+  object-fit: contain; 
+  border-radius: 20px;
+  padding: 1rem; /* Reduzi o padding */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
   background-color: #D32F2F;
-  border-radius: 20px; /* Bordas arredondadas */
-  padding: 2rem;
-  width: 50%; /* Mantido conforme solicitado */
-  height: auto; /* Mantido conforme solicitado */
-  object-fit: contain; /* Ajusta o objeto para preencher o espaço sem distorção */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Adiciona sombra sutil */
 }
 
-/* Container para todos os vídeos e parágrafos */
-
-
-/* Container individual para cada vídeo e parágrafo */
+.img2{
+  margin-top: 5%;
+  margin-left: 35%;
+  width: 40%;
+  height: auto; /* Reduzi a altura das imagens para ocupar menos espaço */
+  object-fit: contain; 
+  border-radius: 20px;
+  padding: 1rem; /* Reduzi o padding */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  background-color: #D32F2F;
+}
+.img3 {
+  margin-top: 5%;
+  margin-left: 35%;
+  width: 30%;
+  height: auto; /* Reduzi a altura das imagens para ocupar menos espaço */
+  object-fit: contain; 
+  border-radius: 20px;
+  padding: 1rem; /* Reduzi o padding */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  background-color: #D32F2F;
+}
+/* Container para vídeos e parágrafos */
 .holdVideos {
-  width: 100%; /* Mantido conforme solicitado */
-  height: 40vh;
+  width: 100%;
+  height: 30vh; /* Reduzi a altura do container de vídeos */
   display: flex;
   align-items: center;
   text-align: center;
-  margin-bottom: 50%;
-  margin-top: 20%;
+  margin-bottom: 15%; /* Ajustei o espaçamento inferior */
+  margin-top: 10%;
 }
-.holdVideos p{
-  color: black;
-}
+
+
 /* Estilo dos vídeos */
 .video {
   width: 30%;
   height: auto;
-  border-radius: 10px; /* Bordas arredondadas */
-  margin-left: 20%;
-
-}
-
-/* Estilo específico para o segundo vídeo */
-.video2 {
-  margin-left: 20%;
-  width: 50%;
-  height: auto;
+  border-radius: 10px;
+  margin-left: 35%;
+  margin-top: 20%;
 }
 
 /* Estilo dos parágrafos */
 .paragrafo {
-  font-size: 3rem;
+  font-size: 2rem; /* Reduzi o tamanho da fonte dos parágrafos */
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  color: #ffffff; /* Branco para contraste */
+  color: #ffffff;
   margin-bottom: 0.5rem;
 }
 
 /* Estilos responsivos para telas menores que 768px */
 @media (max-width: 768px) {
   .carousel-container {
-    height: 60vh;
+    height: 60vh; /* Altura reduzida para dispositivos móveis */
     text-align: center;
     align-items: center;
-    width:100%;
-  }
-  
-  .img1, .img2, .img3 {
-    max-width: 90%;
-    padding: 1rem; /* Reduzido o padding para telas menores */
+    width: 100%;
   }
 
+  .img1, .img3 {
+    width: 40%;
+    height: 30%; /* Altura reduzida para imagens em dispositivos móveis */
+    padding: 0.5rem;
+    margin: 0 auto;
+    margin-top: 10%;
+  }
+.img2{
+    margin-top: 20%;
+    width: 60%;
+    height: auto; /* Altura reduzida para imagens em dispositivos móveis */
+    padding: 0.5rem;
+    margin: 0 auto;
+}
   .holdImg {
-    text-align: center;
+    margin-left: 0;
     align-items: center;
-    margin-left: 0; /* Removido o deslocamento lateral em telas menores */
     text-align: center;
   }
 
   .holdAll {
-    text-align: center;
-    align-items: center;
     width: 100%;
-    flex-direction: column; /* Empilha os vídeos verticalmente */
-    gap: 1rem; /* Espaço entre os vídeos */
+    flex-direction: column; 
+    gap: 1rem;
   }
-  .paragrafo{
+
+  .paragrafo {
     font-size: 1rem;
   }
 
   .holdVideos {
-    display: flex;
-    width: 60%; /* Ajustado para melhor visibilidade em telas menores */
+    width: 60%; 
     height: auto;
-    margin-bottom: 5rem; /* Espaçamento entre as divs quando empilhadas */
+    margin-bottom: 5rem; 
   }
 
   .video {
-    width: 35%;
-    height: auto; /* Altura ajustada para melhor visibilidade */
-  }
-
-  .video2 {
     width: 65%;
     height: auto; 
   }
+
 }

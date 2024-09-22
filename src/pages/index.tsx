@@ -24,6 +24,7 @@ export default function Home() {
           name="google-site-verification"
           content="6iM8cmC3G-WHJ7HNFKbMnYkqTJx1DPfNMY0KrAG3riQ"
         />
+        <link rel="apple-touch-icon" href="/Logo/Logo.png" />
         <link rel="icon" href="/Logo/Logo.png" />
       </Head>
       <div className={styles.all}>

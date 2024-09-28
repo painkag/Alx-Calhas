@@ -2,6 +2,7 @@ import React from 'react';
 import Buttonn from '../Button/button';
 import { handleWhatsClick } from '../../utils/whatszapUtils';
 import style from './orcamento.module.css';
+import  EnviarNotificacao  from '../EnviarNotificacao';  // Import como função, não componente
 
 const phoneNumber = '+5511987782295';
 const message = 'Olá, gostaria de mais informações.';
@@ -9,6 +10,7 @@ const message = 'Olá, gostaria de mais informações.';
 export default function Orcamento() {
   const handleClick = () => {
     handleWhatsClick({ phoneNumber, message });
+    
     // Chama a função de rastreamento de conversão do Google
     if (typeof window.gtag === 'function') {
       (window as any).gtag('event', 'conversion', {
@@ -20,6 +22,9 @@ export default function Orcamento() {
     } else {
       console.warn('gtag function is not available.');
     }
+
+    // Chama a função de enviar notificação
+    EnviarNotificacao();
   };
 
   return (
